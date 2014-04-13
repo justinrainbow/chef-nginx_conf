@@ -8,6 +8,6 @@ version          "0.2.4"
 
 depends 'nginx'
 
-%w{ ubuntu debian centos redhat amazon scientific oracle fedora }.each do |os|
+%w{ ubuntu debian centos redhat amazon scientific oracle fedora solaris2 }.each do |os|
   supports os
 end
